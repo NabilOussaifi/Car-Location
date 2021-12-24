@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Paiement</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <img src="voiture.jpg" alt="" class="navbar-brand" width="50" height="50"> <strong>Rent a Car</strong>
+            &nbsp; &nbsp; &nbsp;
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Acceuil &nbsp; </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Reserver.html">Reserver &nbsp; </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tarif &nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts &nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Promotions &nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#A propos de nous">A propos de nous</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav> <br>
+    <!-- body -->
+    <div class="Container">
+        <div class="row justify-content-center">
+            <div id="primary" class="col-centered col-sm-6 content-area">
+                <h2> <img src="payment.jpg" alt="" width="50px" height="50px"> Paiment</h2>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Credit Card
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Debit Card
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Paypal
+                    </label>
+                </div> 
+                <div>
+                    <label for="start">Name on Card </label>
+                    <input type="text" class="form-control" placeholder="Name" aria-label="Name" required> <br>
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label>Card Number</label>
+                            <div class="input-group">
+                                <input type="tel" class="form-control" placeholder="Valid Card Number" />
+                                <span class="input-group-addon"><span class="fa fa-credit-card"></span></span>
+                            </div>
+                        </div>
+                    </div> <br>
+                    <label for="start">Date d'expiration </label>
+                    <input type="date" placeholder="Date d'expiration" aria-label="Date de départ" class="form-control"
+                        required><br><hr>
+                    <button type="button" class="btn btn-success btn-lg">MAKE PAYMENT</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <footer>
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2021 Copyright:
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+        </footer>
+        <!-- Copyright -->
+</body>
+
+</html>
